@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/theneonlightning/3sem_projects/text_sorting/main.cpp
+iostream
+-
+cstdio
+-
+cstdlib
+-
+gtest/gtest.h
+-
+cassert
+-
+cerrno
+-
+

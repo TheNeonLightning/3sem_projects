@@ -1,0 +1,6 @@
+Like all other functions from <cctype>,
+the behavior of std::isalpha is undefined
+if the argument's value is neither representable
+as unsigned char nor equal to EOF. To use these
+functions safely with plain chars (or signed chars),
+the argument should first be converted to unsigned char:
